@@ -1,0 +1,180 @@
+2019-08-09 15:55:41,469 - octoprint.startup - INFO - ******************************************************************************
+2019-08-09 15:55:41,471 - octoprint.startup - INFO - Starting OctoPrint 1.3.11
+2019-08-09 15:55:41,473 - octoprint.startup - INFO - ******************************************************************************
+2019-08-09 15:55:41,542 - octoprint.util.connectivity_checker - INFO - Connectivity changed from offline to online
+2019-08-09 15:55:42,401 - octoprint.startup - INFO - Blacklist processing done, adding 1 blacklisted plugin versions: roomtemp (any)
+2019-08-09 15:55:42,474 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-08-09 15:55:45,295 - octoprint.plugins.errortracking - INFO - Initialized error tracking
+2019-08-09 15:55:45,302 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 34 hook handlers
+2019-08-09 15:55:45,483 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2019-08-09 15:55:45,515 - octoprint.server - INFO - Intermediary server started
+2019-08-09 15:55:45,516 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2019-08-09 15:55:46,276 - octoprint.plugin.core - INFO - Found 19 plugin(s) providing 19 mixin implementations, 34 hook handlers
+2019-08-09 15:55:46,321 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2019-08-09 15:55:46,974 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2019-08-09 15:55:47,113 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2019-08-09 15:55:48,967 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2019-08-09 15:55:50,794 - octoprint.util.pip - INFO - Version of pip is 19.0.1
+2019-08-09 15:55:50,796 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-09 15:55:50,797 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-09 15:55:50,805 - octoprint.plugin.core - INFO - Initialized 19 plugin implementation(s)
+2019-08-09 15:55:50,821 - octoprint.plugin.core - INFO - 19 plugin(s) registered with the system:
+|  Action Command Prompt Support (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/action_command_prompt
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/announcements
+|  Anonymous Usage Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/tracking
+|  Application Keys Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/appkeys
+|  Backup & Restore (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/backup
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/corewizard
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/discovery
+|  Error Tracking (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/errortracking
+|  Force Login (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/forcelogin
+|  Logging (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/logging
+|  Marlin Flasher (0.1.4) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_marlin_flasher
+|  Octolapse (0.3.4) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_octolapse
+|  OctoPrint Anywhere (1.0.8) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_anywhere
+|  Pi Support Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pi_support
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/pluginmanager
+|  Printer Safety Check (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/printer_safety_check
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/softwareupdate
+|  TouchUI (0.3.13) = /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_touchui
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/octoprint/plugins/virtual_printer
+2019-08-09 15:55:50,842 - octoprint.environment - INFO - Detected environment is Python 2.7.13 under Linux (linux2). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1400.0
+|    ram: 972230656
+|  os:
+|    id: linux
+|    platform: linux2
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 3 Model B Plus Rev 1.3
+|      octopi_version: 0.16.0
+|  python:
+|    pip: 19.0.1
+|    version: 2.7.13
+|    virtualenv: /home/pi/oprint
+2019-08-09 15:55:50,855 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2019-08-09 15:55:50,877 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2019-08-09 15:55:50,891 - octoprint.plugins.octolapse - INFO - Octolapse is loading assets.
+2019-08-09 15:55:52,402 - octoprint.server - INFO - Shutting down intermediary server...
+2019-08-09 15:55:52,871 - octoprint.server - INFO - Intermediary server shut down
+2019-08-09 15:55:52,875 - octoprint.events - INFO - Processing startup event, this is our first event
+2019-08-09 15:55:52,878 - octoprint.events - INFO - Adding 1 events to queue that were held back before startup event
+2019-08-09 15:55:52,882 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2019-08-09 15:55:52,957 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-08-09 15:55:53,070 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2019-08-09 15:55:53,911 - octoprint.util.comm - INFO - Changing monitoring state from "Offline" to "Detecting serial port"
+2019-08-09 15:55:53,918 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2019-08-09 15:55:53,923 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2019-08-09 15:55:53,944 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _http._tcp
+2019-08-09 15:55:53,960 - octoprint.util.comm - INFO - Changing monitoring state from "Detecting serial port" to "Opening serial port"
+2019-08-09 15:55:53,966 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octopi' for _octoprint._tcp
+2019-08-09 15:55:53,967 - octoprint.util.comm - INFO - Changing monitoring state from "Opening serial port" to "Connecting"
+2019-08-09 15:55:53,983 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2019-08-09 15:55:54,064 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2019-08-09 15:55:54,075 - octoprint.plugins.octolapse - INFO - Loading existing settings file from: /home/pi/.octoprint/data/octolapse/settings.json.
+2019-08-09 15:55:54,263 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:10.0.1.20
+2019-08-09 15:55:54,320 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2019-08-09 15:55:54,612 - octoprint.plugins.pluginmanager - INFO - Loaded plugin notices data from https://plugins.octoprint.org/notices.json
+2019-08-09 15:55:55,185 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-09 15:55:55,527 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2019-08-09 15:55:55,605 - octoprint.server.util.flask - INFO - Passively logging in user Caballete007 from ::ffff:10.0.1.20
+2019-08-09 15:55:55,788 - octoprint.server.util.sockjs - INFO - User Caballete007 logged in on the socket from client ::ffff:10.0.1.20
+2019-08-09 15:55:55,857 - octoprint.util.comm - INFO - Changing monitoring state from "Connecting" to "Operational"
+2019-08-09 15:55:55,871 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-09 15:55:56,030 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin 1.1.9_B7 TM3D SSMDNB"
+2019-08-09 15:55:56,082 - octoprint.util.comm - INFO - Firmware states that it supports temperature autoreporting
+2019-08-09 15:55:56,216 - octoprint.util.comm - INFO - Firmware states that it supports emergency GCODEs to be sent without waiting for an acknowledgement first
+2019-08-09 15:55:56,223 - octoprint.util.comm - INFO - Firmware states that it supports sd status autoreporting
+2019-08-09 15:55:56,469 - octoprint.util.comm - WARNING - Printer sent 'start' while already operational. External reset? Resetting line numbers to be on the safe side
+2019-08-09 15:55:56,478 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-09 15:55:56,508 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2019-08-09 15:55:56,514 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-09 15:55:56,515 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-09 15:55:56,830 - octoprint.plugins.tracking - INFO - Sent tracking event printer_connected, payload: {u'printer_baudrate': 250000, u'printer_port': 'AUTO', 'firmware_name': 'Marlin 1.1.9_B7 TM3D SSMDNB'}
+2019-08-09 15:55:57,152 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python2 -m pip" as command to invoke pip
+2019-08-09 15:55:57,379 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-09 15:55:59,200 - py.warnings - WARNING - /home/pi/oprint/local/lib/python2.7/site-packages/octoprint_anywhere/config.py:53: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.__items__ = yaml.load(config_str)
+
+2019-08-09 15:55:59,572 - octoprint.server.util.flask - INFO - Passively logging in user Caballete007 from ::ffff:10.0.1.20
+2019-08-09 15:56:02,581 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages/ (writable -> yes), --user flag needed -> no, virtual env -> yes
+2019-08-09 15:56:02,584 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2019-08-09 15:56:02,790 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2019-08-09 15:56:03,593 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 19}
+2019-08-09 15:56:04,585 - octoprint.plugins.tracking - INFO - Sent tracking event startup, payload: {'python': '2.7.13', 'ram': 972230656, 'octopi_version': '0.16.0', 'version': u'1.3.11', 'pip': '19.0.1', 'cores': 4, 'freq': 1400.0, 'pi_model': 'Raspberry Pi 3 Model B Plus Rev 1.3', 'os': 'linux'}
+2019-08-09 15:56:16,322 - octoprint.server.util.flask - INFO - Passively logging in user Caballete007 from ::ffff:10.0.1.20
+2019-08-09 15:56:16,464 - octoprint.server.util.sockjs - INFO - Client connection closed: ::ffff:10.0.1.20
+2019-08-09 15:56:18,297 - octoprint.server.util.sockjs - INFO - New connection from client: ::ffff:10.0.1.20
+2019-08-09 15:56:18,423 - octoprint.server.util.flask - INFO - Passively logging in user Caballete007 from ::ffff:10.0.1.20
+2019-08-09 15:56:20,826 - octoprint - ERROR - Exception on /plugin/marlin_flasher/board/listall [GET]
+Traceback (most recent call last):
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/util/flask.py", line 1245, in decorated_view
+    return no_firstrun_access(flask_login.login_required(func))(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint/server/util/flask.py", line 1264, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/flask_principal.py", line 199, in _decorated
+    rv = f(*args, **kw)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/octoprint_marlin_flasher/__init__.py", line 192, in board_listall
+    result = arduino.board_listall()
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/pyduinocli/__init__.py", line 135, in board_listall
+    return self.__exec(args)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/pyduinocli/__init__.py", line 88, in __exec
+    p = Popen(command, stdout=PIPE, stderr=PIPE, universal_newlines=True)
+  File "/usr/lib/python2.7/subprocess.py", line 390, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1024, in _execute_child
+    raise child_exception
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2019-08-09 15:56:20,994 - tornado.access - ERROR - 500 GET /plugin/marlin_flasher/board/listall (::ffff:10.0.1.20) 210.45ms
+2019-08-09 15:56:21,144 - octoprint.server.util.sockjs - INFO - User Caballete007 logged in on the socket from client ::ffff:10.0.1.20
+2019-08-09 15:56:29,010 - octoprint.printer.standard.job - INFO - Print job selected - origin: local, path: 2range_tige_v2.gcode, owner: Caballete007, user: Caballete007
+2019-08-09 15:56:34,266 - octoprint.util.comm - INFO - Changing monitoring state from "Operational" to "Starting"
+2019-08-09 15:56:34,303 - octoprint.printer.standard.job - INFO - Print job started - origin: local, path: 2range_tige_v2.gcode, owner: Caballete007, user: Caballete007
+2019-08-09 15:56:34,828 - octoprint.util.comm - INFO - Changing monitoring state from "Starting" to "Printing"
+2019-08-09 15:56:34,882 - octoprint.util.comm - INFO - M110 detected, setting current line number to 0
+2019-08-09 15:56:35,159 - octoprint.plugins.tracking - INFO - Sent tracking event print_started, payload: {'origin': 'local', 'file': 'bce0afcec1c8e9187823854ea0145e824705a506'}
+2019-08-09 15:56:37,188 - octoprint.util.comm - INFO - Printer seems to support the busy protocol, will adjust timeouts and set busy interval accordingly
+2019-08-09 15:56:52,740 - octoprint.util.comm - INFO - Telling the printer to set the busy interval to our "communicationBusy" timeout - 1s = 2s
+2019-08-09 15:58:39,159 - octoprint.util.comm - INFO - Got a resend request from the printer: requested line = 1394, current line = 1400
+| Last lines in terminal:
+| Send: N1390 G1 Y150.008 X147.009*21
+| Recv: ok N1383 P0 B3
+| Send: N1391 G1 Y149.289 X147.092*21
+| Recv: ok N1384 P0 B0
+| Send: N1392 G1 Y148.623 X147.344*27
+| Send: N1393 G1 Y148.022 X147.757*27
+| Recv: ok N1385 P0 B0
+| Send: N1394 G1 Y147.544 X148.293*20
+| Recv: ok N1386 P0 B0
+| Send: N1395 G1 Y147.205 X148.935*16
+| Recv: ok N1387 P0 B0
+| Send: N1396 G1 Y147.032 X149.63*46
+| Recv: ok N1388 P0 B0
+| Send: N1397 G1 Y147.029 X150.351*31
+| Recv: ok N1389 P0 B0
+| Send: N1398 G1 Y147.201 X151.052*25
+| Recv: ok N1390 P0 B0
+| Send: N1399 G1 Y147.537 X151.696*20
+| Recv: Error:checksum mismatch, Last Line: 1393
+| Recv: Resend: 1394
+2019-08-09 15:58:39,180 - octoprint.util.comm - INFO - Ignoring resend request for line 1394, that still originates from lines we sent before we got the first resend request
+2019-08-09 15:59:34,148 - octoprint.util.comm - INFO - Changing monitoring state from "Printing" to "Cancelling"
+2019-08-09 15:59:34,157 - octoprint.util.comm - INFO - Force-sending M108 to the printer
+2019-08-09 15:59:34,204 - octoprint.printer.standard.job - INFO - Print job cancelled - origin: local, path: 2range_tige_v2.gcode, owner: Caballete007, user: Caballete007
+2019-08-09 15:59:34,679 - octoprint.util.comm - INFO - Changing monitoring state from "Cancelling" to "Operational"
+2019-08-09 15:59:34,975 - octoprint.plugins.tracking - INFO - Sent tracking event print_cancelled, payload: {'origin': 'local', 'file': 'bce0afcec1c8e9187823854ea0145e824705a506', 'elapsed': 179}
+2019-08-09 15:59:35,607 - octoprint.plugins.tracking - INFO - Sent tracking event print_failed, payload: {'origin': 'local', 'reason': 'cancelled', 'file': 'bce0afcec1c8e9187823854ea0145e824705a506', 'elapsed': 179}
